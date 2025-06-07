@@ -1,10 +1,10 @@
-# 🚢 Titanic Survival Analysis
+# Titanic Survival Analysis
 
 This project uses the famous Titanic dataset to perform exploratory data analysis (EDA) and understand the key factors that influenced survival. It visualizes patterns in survival rates based on passenger class, sex, number of siblings/spouses onboard, and parents/children aboard.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 **Source**: [Titanic - Machine Learning from Disaster (Kaggle)](https://www.kaggle.com/competitions/titanic/data)  
 **Format**: CSV  
@@ -12,7 +12,7 @@ This project uses the famous Titanic dataset to perform exploratory data analysi
 
 ---
 
-## 🔧 Tools and Libraries
+## Tools and Libraries
 
 - Python
 - Pandas
@@ -24,7 +24,7 @@ This project uses the famous Titanic dataset to perform exploratory data analysi
 
 ---
 
-## 📊 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 The analysis focuses on visualizing how different factors affect survival. Here's what's done:
 
@@ -42,7 +42,7 @@ Each factor is visualized with dual bar charts (overall and survival-split) for 
 
 ---
 
-## 📷 Sample Visualizations
+## Sample Visualizations
 
 Here's a preview of some plots generated:
 
@@ -55,7 +55,7 @@ Here's a preview of some plots generated:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 # 1. Clone the repository
@@ -73,7 +73,7 @@ Ensure you have the `titanic.csv` file in the same directory as `main.ipynb`.
 
 ---
 
-## ✅ To-Do
+## To-Do
 
 - Impute missing values (Age, Cabin, Embarked)
 - Feature engineering (e.g., family size, title extraction from name)
@@ -81,9 +81,3 @@ Ensure you have the `titanic.csv` file in the same directory as `main.ipynb`.
 - Export as web dashboard (Streamlit/Flask)
 
 ---
-
-## 🙏 Acknowledgements
-
-- [Kaggle](https://www.kaggle.com/) for providing the Titanic dataset
-- Stanford and other data scientists whose notebooks inspired this analysis
-- Seaborn and Matplotlib teams for beautiful visualizations
